@@ -1,22 +1,8 @@
-#top{
-    padding-bottom: 20px;
-    background-color: rgb(0,51,128)
+.firstimg{
+    width: 100%;
+    height: auto;
 }
-#bottom{
-    padding-top:20px;
-    padding-bottom:20px;
-}
-a{
-    font-size:0.9em;
-    
-}
-li{
-    line-height:30px;
-}
-footer{
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(10, 36, 74);
-}
-h6{
-    font-weight:bolder;
+.firstimg>img{
+    width: 100%;
+    height: auto;
 }
