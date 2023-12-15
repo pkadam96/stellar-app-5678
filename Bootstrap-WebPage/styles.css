@@ -20,3 +20,20 @@ footer{
 h6{
     font-weight:bolder;
 }
+
+.product-image{
+    height: 230px;
+  }
+  .product-image>img {
+    transition: transform 0.3s ease-in-out;
+  }
+  .product-image>img:hover{
+    transform: scale(1.1);
+  }
+  .card-title>a {
+    color: #003380;
+    text-decoration: none;
+  }
+  .card-title>a:hover {
+    color: #e42529;
+  }
