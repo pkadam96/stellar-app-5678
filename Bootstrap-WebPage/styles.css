@@ -1,3 +1,4 @@
+/* <<<<<<< HEAD */
 
 #top{
     padding-bottom: 20px;
@@ -39,3 +40,73 @@ h6{
   .card-title>a:hover {
     color: #e42529;
   }
+
+ .head>button {
+  background-color: #003380;
+  font-size: small;
+  border-radius: 2px;
+}
+
+.product-image {
+  height: 230px;
+}
+
+.product-image>span {
+  background-color: #007fad;
+  font-size: small;
+  width: 150px;
+  border-radius: 8px 0 8px 0;
+}
+
+.product-image>img,
+.deals>.col {
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image>img:hover,
+.deals>.col:hover {
+  transform: scale(1.1);
+}
+
+.card-title>a,
+.brand,
+.card-body>.rating {
+  color: #00398e;
+  text-decoration: none;
+}
+.card-title>a:hover {
+  color: #e42529;
+}
+
+.card-body,.disclaimer {
+  font-size: small;
+}
+
+.card-body>h6 {
+  font-size: 14px;
+}
+
+.brand-p {
+  font-size: 11px;
+}
+
+.brand-img {
+  height: 40px;
+}
+
+.brand-box>.col {
+  background-color: #ebebeb;
+}
+#viewallbtn {
+  background-color: #003380;
+  color: white;
+  position: sticky;
+  left: 45%;
+}
+
+#viewallbtn:hover {
+  color: #003380;
+  background-color: white;
+  border: 1px solid #003380;
+}
+
