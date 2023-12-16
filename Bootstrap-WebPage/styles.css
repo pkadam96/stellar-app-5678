@@ -152,4 +152,16 @@ nav>.container-fluid>div>p {
   /* display: block; */
 
 }
+.firstimg{
+  width: 100%;
+  height: auto;
+}
+.firstimg>img{
+  width: 100%;
+  height: auto;
+}
+.bankDiscount{
+  padding-top: 0.5%;
+  background-color: #e9ebee;
+}
     
