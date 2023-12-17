@@ -1,0 +1,162 @@
+.vivendo {
+    max-width: 1440px;
+    background: #F5F6FD;
+    padding: 0 135px 0 135px;
+    box-sizing: border-box;
+    margin: auto;
+    border-bottom: 1px solid rgb(226, 226, 226);
+
+    h2 {
+        color: var(--Text_Black, #000);
+        text-align: center;
+        font-family: 'DM Serif Display';
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+        margin-bottom: 29px;
+    }
+
+    .subtitle {
+        width: 570px;
+        height: 83px;
+        flex-shrink: 0;
+        color: var(--Text_Black, hsl(0, 0%, 0%));
+        text-align: center;
+        margin: auto;
+        font-family: 'DM Sans';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 36px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 80px;
+
+        .card {
+            width: 370px;
+            height: 416px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            background: #FFF;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+
+            .card-img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: none;
+                height: 230px;
+
+                img {
+                    width: 132px;
+                    height: 114px;
+                    flex-shrink: 0;
+                    fill: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
+
+                }
+
+                .vehicle {
+                    width: 186px;
+                    height: 96px;
+                    flex-shrink: 0;
+                }
+
+            }
+
+            h4 {
+                color: var(--Text_Black, #000);
+                font-family: 'DM Serif Display';
+                font-size: 24px;
+                font-style: normal;
+                margin-top: 0;
+                margin-left: 30px;
+                margin-bottom: 15px;
+                font-weight: 400;
+                line-height: 32px;
+            }
+
+            .card-content {
+                width: 306px;
+                height: 48px;
+                margin: auto;
+                margin-bottom: 25px;
+                flex-shrink: 0;
+                color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+                font-family: 'DM Sans';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+
+            hr {
+                color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+                width: 338px;
+                height: 1px;
+                flex-shrink: 0;
+                opacity: 0.1011;
+                background: #000;
+                margin-bottom: 18px;
+                margin-left: 32px;
+            }
+
+            .learnmore {
+                color: var(--Text_Black, #000);
+                font-family: 'DM Sans';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                margin-left: 30px;
+
+                .arrow-icon {
+                    width: 6px;
+                    height: 11px;
+                    flex-shrink: 0;
+                    fill: #000;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width:375px) {
+    .vivendo {
+        max-width: 375px;
+        height: auto;
+        padding: 0 15px 0 15px;
+        h2 {
+            font-size: 40px;
+            line-height: 48px;
+            margin-top: 42px;
+            margin-bottom: 31px;
+        }
+
+        .subtitle {
+            width: 346px;
+            height: 101px;
+            margin-bottom: 50px;
+        }
+
+        .cards {   
+            flex-direction: column; 
+            gap: 16px;
+            border-bottom: 1px solid rgb(225, 224, 224);
+            .card {
+                width: 346px;               
+                .card-content {
+                    width: 282px;
+                }
+    
+                hr {
+                    width: 314px;
+                }
+            }
+        }
+    }
+}
