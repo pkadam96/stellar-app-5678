@@ -149,5 +149,173 @@
     margin-left: 0px;
   }
 }
+.footer2nd {
+  width: 100%;
+  height: 400px;
+  padding: 0%;
+  margin: 0%;
+  background: rgb(245, 246, 252);
+  margin: auto;
+}
+.footer2nd .footer2ndpart {
+  width: 80%;
+  display: grid;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  grid-template-areas: "fir sec thir fou" "fir sec thir fou";
+  justify-content: space-around;
+  margin: auto;
+  gap: 12%;
+}
+.footer2nd .footer2ndpart .footer2ndpart div:nth-child(1) {
+  grid-area: fir;
+}
+.footer2nd .footer2ndpart .footer2ndpart div:nth-child(2) {
+  grid-area: sec;
+}
+.footer2nd .footer2ndpart .footer2ndpart div:nth-child(3) {
+  grid-area: thir;
+}
+.footer2nd .footer2ndpart .footer2ndpart div:nth-child(4) {
+  grid-area: fou;
+}
+.footer2nd .footer2ndpart .social-media > img {
+  margin-right: 10px;
+}
+.footer2nd .conform {
+  display: flex;
+  gap: 8%;
+  align-items: center;
+}
+.footer2nd .conform img {
+  border-radius: 10px;
+  margin-top: -30px;
+}
+.footer2nd .conform p {
+  color: rgb(168, 169, 173);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.footer2nd .conform #data1 {
+  color: #000;
+  /* Text_Small */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 200% */
+}
+.footer2nd .conform #data2 {
+  color: #000;
+  /* Text_Small */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 200% */
+}
+.footer2nd h4 {
+  color: rgb(15, 15, 15);
+  /* H4 */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 32px; /* 133.333% */
+}
+.footer2nd .footer2ndpart > div > p {
+  color: rgb(168, 169, 173);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.footer2nd div > h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 24px; /* 150% */
+}
+
+@media all and (max-width: 375px) {
+  .footer2nd {
+    width: 100%;
+    height: 720px;
+    padding: 0%;
+    margin: 0%;
+    background: rgb(245, 246, 252);
+    margin: auto;
+  }
+  .footer2nd .footer2ndpart {
+    width: 80%;
+    display: grid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    grid-template-areas: "fir fir" "sec thir" "fou fou";
+    margin: auto;
+    gap: 1%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footer2nd .footer2ndpart div:nth-child(1) {
+    grid-area: fir;
+  }
+  .footer2nd .footer2ndpart div:nth-child(2) {
+    grid-area: sec;
+  }
+  .footer2nd .footer2ndpart div:nth-child(3) {
+    grid-area: thir;
+  }
+  .footer2nd .footer2ndpart div:nth-child(4) {
+    grid-area: fou;
+  }
+  .footer2nd .footer2ndpart .social-media > img {
+    margin-right: 10px;
+  }
+}
+.lastpart {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(245, 246, 252);
+}
+.lastpart p {
+  color: rgb(168, 169, 173);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.lastpart #para1 {
+  margin-left: 10%;
+}
+.lastpart #para2 {
+  margin-right: 10%;
+}
+
+@media all and (max-width: 375px) {
+  .lastpart {
+    width: 100%;
+    display: block;
+  }
+  .lastpart p {
+    color: rgb(168, 169, 173);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .lastpart #para2 {
+    margin-left: 10%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
