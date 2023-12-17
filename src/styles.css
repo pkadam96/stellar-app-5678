@@ -1,0 +1,57 @@
+.tantas {
+  width: 1440px;
+  height: 768px;
+  margin: auto;
+  display: flex;
+  gap: 62px;
+}
+
+#t2 {
+  width: 600px;
+  height: 500px;
+  font-weight: 100;
+  font-size: larger;
+}
+#t2 > h4 {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+#t2 > h2 {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+#t2 > p {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+#t2 > button {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: #434ccc;
+}
+
+#t1 {
+  width: 889px;
+  height: 500px;
+  flex-shrink: 0;
+  background-image: url("https://s3-alpha-sig.figma.com/img/c88b/0bc7/ec8c1618bac9fe2b94bcf9d9a4d3cdad?Expires=1703462400&Signature=k356DByLCFMI3X8E3WYrr1Q0JDZEgqh~vuAxKWfzYrX9O9v8H9gjQIsr4h2EpHoxuZOWveQ3gqHrE1cd6dHusiJx~n1012x4Ryp6GlWHn9I2tCBxkaCk5t1Q~DRPEotBD~9mxTdnJyH9GhqGaO4dE5aCeyo7f4pNNUrNSzN8JvdP3MF9i7YgwExlQDUB-15YGpRX8teCDFdVqKc2qen8BqMcEe4iDbTBMKUvJjgEGoO5bZBHgqsXTU4Q6eqA95SprsE7dW2A6MPKfnXRm5qvZELlBSq3gFrpUJgfE1ynYUs2pOURugOzGSw3OMp2dpSSrQFDHQkA5lu9s1Qmw5Ub1Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=styles.css.map */
