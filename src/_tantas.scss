@@ -1,62 +1,173 @@
 .tantas {
-    width: 1440px;
-    height: 768px;
-    margin: auto;
-    display: flex;
-    gap: 62px;
+  width: 1440px;
+  height: 768px;
+  margin: auto;
+  display: flex;
+  gap: 62px;
+}
+
+#t2 {
+  width: 600px;
+  height: 500px;
+  font-weight: 100;
+  font-size: larger;
+
+  > h4 {
+    color: var(--Text_Black, #000);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
   }
-  
-  #t2 {
-    width: 600px;
-    height: 500px;
-    font-weight: 100;
-    font-size: larger;
-  
-    > h4 {
-      color: var(--Text_Black, #000);
-      font-family: DM Sans;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 24px;
-      letter-spacing: 4.8px;
-      text-transform: uppercase;
-    }
-  
-    > h2 {
-      color: var(--Text_Black, #000);
-      font-family: DM Serif Display;
-      font-size: 56px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 64px;
-    }
-  
-    > p {
-      color: var(--Text_Black, #000);
-      font-family: DM Sans;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 32px;
-    }
-  
-    > button {
-      width: 170px;
-      height: 48px;
-      flex-shrink: 0;
-      border-radius: 5px;
-      color: white;
-      background-color: #434ccc;
-    }
+
+  > h2 {
+    color: var(--Text_Black, #000);
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
   }
-  
-  #t1 {
-    width: 889px;
-    height: 500px;
+
+  > p {
+    color: var(--Text_Black, #000);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  > button {
+    width: 170px;
+    height: 48px;
     flex-shrink: 0;
-    background-image: url("https://s3-alpha-sig.figma.com/img/c88b/0bc7/ec8c1618bac9fe2b94bcf9d9a4d3cdad?Expires=1703462400&Signature=k356DByLCFMI3X8E3WYrr1Q0JDZEgqh~vuAxKWfzYrX9O9v8H9gjQIsr4h2EpHoxuZOWveQ3gqHrE1cd6dHusiJx~n1012x4Ryp6GlWHn9I2tCBxkaCk5t1Q~DRPEotBD~9mxTdnJyH9GhqGaO4dE5aCeyo7f4pNNUrNSzN8JvdP3MF9i7YgwExlQDUB-15YGpRX8teCDFdVqKc2qen8BqMcEe4iDbTBMKUvJjgEGoO5bZBHgqsXTU4Q6eqA95SprsE7dW2A6MPKfnXRm5qvZELlBSq3gFrpUJgfE1ynYUs2pOURugOzGSw3OMp2dpSSrQFDHQkA5lu9s1Qmw5Ub1Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
-    background-size: cover;
-    background-position: center;
+    border-radius: 5px;
+    color: white;
+    background-color: #434ccc;
   }
-  
+}
+
+#t1 {
+  width: 889px;
+  height: 500px;
+  flex-shrink: 0;
+  background-image: url("https://s3-alpha-sig.figma.com/img/c88b/0bc7/ec8c1618bac9fe2b94bcf9d9a4d3cdad?Expires=1703462400&Signature=k356DByLCFMI3X8E3WYrr1Q0JDZEgqh~vuAxKWfzYrX9O9v8H9gjQIsr4h2EpHoxuZOWveQ3gqHrE1cd6dHusiJx~n1012x4Ryp6GlWHn9I2tCBxkaCk5t1Q~DRPEotBD~9mxTdnJyH9GhqGaO4dE5aCeyo7f4pNNUrNSzN8JvdP3MF9i7YgwExlQDUB-15YGpRX8teCDFdVqKc2qen8BqMcEe4iDbTBMKUvJjgEGoO5bZBHgqsXTU4Q6eqA95SprsE7dW2A6MPKfnXRm5qvZELlBSq3gFrpUJgfE1ynYUs2pOURugOzGSw3OMp2dpSSrQFDHQkA5lu9s1Qmw5Ub1Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-size: cover;
+  background-position: center;
+}
+
+.epicuri > h5:nth-child(1) {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.noluisse {
+  width: 1440px;
+  height: 768px;
+  flex-shrink: 0;
+  display: flex;
+  margin: auto;
+}
+
+#n1 {
+  width: 600px;
+  height: 500px;
+  font-weight: 100;
+  font-size: larger;
+  margin-left: 100px;
+  margin-top: 180px;
+
+  > h5 {
+    color: var(--Text_Black, #000);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+  }
+}
+
+.epicuri > h5:nth-child(1) {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.epicuri > h5:nth-child(2) {
+  margin-top: -40px;
+  margin-left: 440px;
+}
+
+.bar1 {
+  width: 470px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #e9e9e9;
+  margin-top: -20px;
+  padding: 0;
+}
+
+.bar1 > div:nth-child(1) {
+  width: 382px;
+  height: 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #f1b505;
+}
+
+.bar2 {
+  width: 470px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #e9e9e9;
+  margin-top: -20px;
+  padding: 0;
+}
+
+.bar2 > div:nth-child(1) {
+  width: 318px;
+  height: 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #e94a47;
+}
+
+.bar3 {
+  width: 470px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #e9e9e9;
+  margin-top: -20px;
+  padding: 0;
+}
+
+.bar3 > div:nth-child(1) {
+  width: 182px;
+  height: 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #428dfc;
+}
+
+#n2 {
+  width: 1131px;
+  height: 754px;
+  flex-shrink: 0;
+  margin: auto;
+  background-image: url("https://s3-alpha-sig.figma.com/img/1a17/42b2/1ee07cdf2a9a37fa71438a2689d8c5f2?Expires=1703462400&Signature=LhJSUjHn71ekbYSxe1Dv0ZF-1HtSknoi3GWDcEkG4AkV1diir7XtoPc7dyY1NqBtL1YrPAPcHrusZlXAzNhU1QO1g5g6kPjbuFSCtZfsPYvWUJeCGF5zsaLyjaPGO~i2PfbfAfaCed9MJjtCnoFuJaN2aNjLnZxFbsDlCZJBRhRcZOsEqgAjmPOaS3SkJkmv3TR7SEyk~K1hbph2xDa9qKQjLdK4QrYppm39ocskUJEh8aLy6EorLOYsABa~gd0u649uvSZ9GReN07pBf6VpEaRYSlIw1vKh9BoQrfJKdaphQCvSCTvq4cnmZslv4KvGbpjLA03w4e3uwXscHkOgFA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-position: center;
+  background-size: cover;
+}
