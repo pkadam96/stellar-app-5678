@@ -6,8 +6,8 @@ This page were created with the help of Bootstrap and little bit of CSS
 
 •	NAVBAR section:
 The following section is done by Sonali.
-She had added the hyperlink and search input.
-She stick the navbar section to the webpage that it won’t move while scrolling and stick to the top of the page.
+Added the hyperlink and search input.
+Stick the navbar section to the webpage that it won’t move while scrolling and stick to the top of the page.
 
 •	Carousel from Watch Section to Brand Promise
 Added the Carousel with Next & Previous Buttons.
