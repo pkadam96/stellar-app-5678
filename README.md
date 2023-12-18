@@ -1,5 +1,12 @@
 # stellar-app-5678
 
+Team Member:
+1. Pranoti (Team Lead)
+2. Prince
+3. Sonali
+4. Revanth
+5. Shubham
+
 Clone of Reliance Digital Webpage
 Webpage is the clone of Home Page of Reliance Digital.
 This page were created with the help of Bootstrap and little bit of CSS
@@ -9,9 +16,11 @@ The following section is done by Sonali.
 Added the hyperlink and search input.
 Stick the navbar section to the webpage that it won’t move while scrolling and stick to the top of the page.
 
-•	Carousel from Watch Section to Brand Promise
+•	Carousel from Watch Section to Brand Promise Section: 
+The following section is done by Pranoti.
 Added the Carousel with Next & Previous Buttons.
 Hovering over any product will enlarge the size of the Product and on hovering over the product name, it will change color to create a great user interaction.
+
 
 •	Footer section:-
 To connect with the people globally so that they can explore and find the items according to their need we have created footer where we have provided our dowloadable app links
@@ -22,6 +31,8 @@ And at last we have created one button also to navigate to the other website whi
 
 
 
+
+Links for the Webpage
 --for Clone of Reliance_Digital--
 https://658044d058f3e6424095b6db--sparkling-lebkuchen-00abc5.netlify.app/
 
