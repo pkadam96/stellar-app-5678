@@ -4,7 +4,7 @@
 }
 .top{
     background: #434CCC;
-    width: 1440px;
+    max-width: 1440px;
     height: 80px;
     display:flex;
     margin:0px;
@@ -65,7 +65,7 @@
     }
 }
 .about{
-    width:1440px;
+    max-width:1440px;
     height:224px;
     margin:0px;
     background: #434CCC;
