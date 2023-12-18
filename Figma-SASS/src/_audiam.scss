@@ -1,0 +1,165 @@
+.audiam {
+    max-width: 1440px;
+    height: 768px;
+    flex-shrink: 0;
+    padding: 76px 135px 0 135px;
+    background: white;
+    // opacity: 0.0515;
+
+    display: flex;
+    justify-content: space-between;
+
+    .section-1 {
+        margin-right: 85px;
+
+        h5 {
+            color: var(--Text_Black, #000);
+            /* H5 */
+            font-family: 'DM Sans';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 4.8px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: var(--Text_Black, #000);
+            /* H2 */
+            font-family: 'DM Serif Display';
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 64px;
+            /* 114.286% */
+        }
+
+        .audiam-text {
+            width: 338px;
+            height: 230px;
+
+            p {
+                width: 338px;
+                height: auto;
+                flex-shrink: 0;
+                color: var(--Text_Black, #000);
+                /* Text_Big */
+                font-family: 'DM Sans';
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+            }
+        }
+
+        button {
+            width: 170px;
+            height: 48px;
+            flex-shrink: 0;
+            color: #434CCC;
+            margin-top: 33px;
+            text-align: center;
+            font-family: 'DM Sans';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            /* 150% */
+        }
+    }
+
+    .section-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 110px;
+        gap: 0 30px;
+
+        .audiam-menu {
+            display: flex;
+            // gap: 30px;
+            // align-items:center;
+
+            img {
+                width: 52px;
+                height: 45px;
+                flex-shrink: 0;
+                margin-right: 30px;
+            }
+
+            .menu-content {
+                h4 {
+                    color: var(--Text_Black, #000);
+                    /* H4 */
+                    font-family: 'DM Serif Display';
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    // line-height: 32px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    /* 133.333% */
+                }
+
+                p {
+                    width: 270px;
+                    height: 77px;
+                    flex-shrink: 0;
+                    color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+                    /* Text_Gray */
+                    font-family: 'DM Sans';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-top: 7px;
+                    /* 150% */
+                }
+            }
+
+        }
+    }
+}
+
+@media all and (max-width:375px) {
+    .audiam {
+        max-width: 375px;
+        height: 1376px;
+        margin: 0 14px 0 15px;
+        flex-direction: column;
+        padding: 0;
+
+        .section-1 {
+            margin-right: 0px;
+
+            h2 {
+                font-size: 40px;
+                line-height: 48px;
+            }
+
+            .audiam-text {
+                width: 346px;
+
+                p {
+                    width: 338px;
+                }
+            }
+        }
+
+        .section-2 {
+            grid-template-columns: repeat(1, 1fr);
+            margin-top: 72px;
+
+            .audiam-menu {
+                .menu-content {
+                    
+                    p {
+                        width: 257px;
+                    }
+                }
+
+            }
+        }
+    }
+}
