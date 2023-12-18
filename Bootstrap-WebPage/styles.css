@@ -1,147 +1,198 @@
- #top{
-    padding-bottom: 20px;
-    background-color: rgb(0,51,128)
+/* 
+nav {
+    z-index: 1000;
+    width: 100%;
+} */
+
+nav>.container-fluid {
+  height: auto;
+  background-color: #e42529;
+  padding: 1.1%;
 }
-#bottom{
-    padding-top:20px;
-    padding-bottom:20px;
+.nav-content{
+  display: flex;
+}
+.search-container {
+  position: relative;
+  width: 40%;
+}
+
+.search-icon {
+  position: absolute;
+  top: 75%;
+  right: 4%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #969393;
+}
+
+#site-search {
+  width: 100%;
+  border-radius: 40px;
+  border: none;
+}
+
+nav>.container-fluid>div>p {
+  font-weight: 600;
+}
+
+.btn-group {
+  display: flex;
+  cursor: pointer;
+}
+
+/* Style the dropdown container */
+.dropdown {
+  position: relative;
+  background-color: #003380;
+  width: 100%;
+  bottom: 20%;
+}
+
+/* Style the button that triggers the dropdown */
+.dropbtn {
+  padding: 10px;
+  border: none;
+  background-color: #003380;
+  color: white;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  position: absolute;
+  background-color: #011d47;
+  z-index: 1;
+  list-style: none;
+  display: flex;
+  display: none;
+  top: 100%;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content ul {
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  display: inline-table;
+  list-style: none;
+}
+
+/* Change color on hover */
+.dropdown-content li:hover {
+  background-color: #293950;
+}
+
+/* Show the dropdown content when the button is hovered over */
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 95%;
+}
+
+.dropbtn:hover {
+  background-color: #e42529;
+  /* display: block; */
+
+}
+
+.firstimg {
+  width: 100%;
+  height: auto;
+}
+
+.firstimg>img {
+  width: 100%;
+  height: auto;
+}
+
+.bankDiscount {
+  padding-top: 0.5%;
+  background-color: #e9ebee;
+}
+
+.head>button {
+  background-color: #003380;
+  font-size: small;
+  border-radius: 2px;
 }
 
 .product-image {
   height: 230px;
 }
-footer{
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(10, 36, 74);
-}
-h6{
-    font-weight:bolder;
+
+.product-image>span {
+  background-color: #007fad;
+  font-size: small;
+  width: 150px;
+  border-radius: 8px 0 8px 0;
 }
 
+.product-image>img,
+.deals>.col {
+  transition: transform 0.3s ease-in-out;
+}
 
-.product-image{
-    height: 230px;
-  }
-  .product-image>img {
-    transition: transform 0.3s ease-in-out;
-  }
-  .product-image>img:hover{
-    transform: scale(1.1);
-  }
-  .card-title>a {
-    color: #003380;
-    text-decoration: none;
-  }
-  .card-title>a:hover {
-    color: #e42529;
-  }
-  nav {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-  }
-  
-  nav>.container-fluid {
-    height: auto;
-    background-color: #e42529;
-    padding: 1.1%;
-  }
-  .nav-content{
-    display: flex;
-  
-  }
-  .search-container {
-    position: relative;
-    width: 40%;
-  }
-  
-  .search-icon {
-    position: absolute;
-    top: 75%;
-    right: 4%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: #969393;
-  }
-  
-  #site-search {
-    width: 100%;
-    border-radius: 40px;
-    border: none;
-  }
-  
-  nav>.container-fluid>div>p {
-    font-weight: 600;
-  }
-  
-  .btn-group {
-    display: flex;
-    cursor: pointer;
-  }
-  
-  /* Style the dropdown container */
-  .dropdown {
-    position: relative;
-    background-color: #003380;
-    width: 100%;
-    bottom: 20%;
-  }
-  
-  /* Style the button that triggers the dropdown */
-  .dropbtn {
-    padding: 10px;
-    border: none;
-    background-color: #003380;
-    color: white;
-  }
-  
-  /* Style the dropdown content (hidden by default) */
-  .dropdown-content {
-    position: absolute;
-    background-color: #011d47;
-    z-index: 1;
-    list-style: none;
-    display: flex;
-    display: none;
-    top: 100%;
-  }
-  
-  /* Style the links inside the dropdown */
-  .dropdown-content ul {
-    padding: 12px 16px;
-    display: block;
-    text-decoration: none;
-    color: white;
-    display: inline-table;
-    list-style: none;
-  }
-  
-  /* Change color on hover */
-  .dropdown-content li:hover {
-    background-color: #293950;
-  }
-  
-  /* Show the dropdown content when the button is hovered over */
-  .dropdown:hover .dropdown-content {
-    display: block;
-    width: 95%;
-  }
-  
-  .dropbtn:hover {
-    background-color: #e42529;
-    /* display: block; */
-  
-  }
-  .firstimg{
-    width: 100%;
-    height: auto;
+.product-image>img:hover,
+.deals>.col:hover {
+  transform: scale(1.1);
 }
-.firstimg>img{
-    width: 100%;
-    height: auto;
+
+.card-title>a,
+.brand,
+.card-body>.rating {
+  color: #00398e;
+  text-decoration: none;
 }
-.bankDiscount{
-    padding-top: 0.5%;
-    background-color: #e9ebee;
+
+.card-title>a:hover {
+  color: #e42529;
+}
+
+.card-body,
+.disclaimer {
+  font-size: small;
+}
+
+.card-body>h6 {
+  font-size: 14px;
+}
+
+.brand-p {
+  font-size: 11px;
+}
+
+.brand-img {
+  height: 40px;
+}
+
+.brand-box>.col {
+  background-color: #ebebeb;
+}
+
+#top {
+  padding-bottom: 20px;
+  background-color: rgb(0, 51, 128)
+}
+
+#bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(10, 36, 74);
+}
+
+#viewallbtn {
+  background-color: #003380;
+  color: white;
+  position: sticky;
+  left: 45%;
+}
+
+#viewallbtn:hover {
+  color: #003380;
+  background-color: white;
+  border: 1px solid #003380;
 }
