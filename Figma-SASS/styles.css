@@ -1,84 +1,135 @@
-.similique {
-  margin-top: 0;
+.audiam {
   max-width: 1440px;
-  height: 480px;
+  height: 768px;
   flex-shrink: 0;
-  background: #434CCC;
   padding: 76px 135px 0 135px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
 }
-.similique h2 {
-  color: var(--Text_White, #FFF);
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 29px;
+.audiam .section-1 {
+  margin-right: 85px;
+}
+.audiam .section-1 h5 {
+  color: var(--Text_Black, #000);
+  /* H5 */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.audiam .section-1 h2 {
+  color: var(--Text_Black, #000);
+  /* H2 */
   font-family: "DM Serif Display";
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
+  /* 114.286% */
 }
-.similique p {
-  width: 770px;
-  height: 83px;
+.audiam .section-1 .audiam-text {
+  width: 338px;
+  height: 230px;
+}
+.audiam .section-1 .audiam-text p {
+  width: 338px;
+  height: auto;
   flex-shrink: 0;
-  color: var(--Text_White, #FFF);
-  text-align: center;
-  margin: auto;
+  color: var(--Text_Black, #000);
+  /* Text_Big */
   font-family: "DM Sans";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
 }
-.similique .similique-numbers {
-  display: flex;
-  justify-content: center;
-}
-.similique .similique-numbers h1 {
-  color: var(--Text_White, #FFF);
+.audiam .section-1 button {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #434CCC;
+  margin-top: 33px;
   text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+.audiam .section-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 110px;
+  gap: 0 30px;
+}
+.audiam .section-2 .audiam-menu {
+  display: flex;
+}
+.audiam .section-2 .audiam-menu img {
+  width: 52px;
+  height: 45px;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+.audiam .section-2 .audiam-menu .menu-content h4 {
+  color: var(--Text_Black, #000);
+  /* H4 */
   font-family: "DM Serif Display";
-  font-size: 72px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* 133.333% */
 }
-.similique .similique-numbers p {
+.audiam .section-2 .audiam-menu .menu-content p {
   width: 270px;
-  color: var(--text-white-50, rgba(255, 255, 255, 0.5));
-  text-align: center;
+  height: 77px;
+  flex-shrink: 0;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
   font-family: "DM Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  margin-top: 7px;
+  /* 150% */
 }
 
 @media all and (max-width: 375px) {
-  .similique {
+  .audiam {
     max-width: 375px;
-    height: 896px;
-    padding: 74px 0 0 0;
+    height: 1376px;
+    margin: 0 14px 0 15px;
+    flex-direction: column;
+    padding: 0;
   }
-  .similique h2 {
+  .audiam .section-1 {
+    margin-right: 0px;
+  }
+  .audiam .section-1 h2 {
     font-size: 40px;
-    margin-bottom: 31px;
     line-height: 48px;
   }
-  .similique p {
+  .audiam .section-1 .audiam-text {
     width: 346px;
-    height: 103px;
-    font-size: 20px;
-    line-height: 32px;
   }
-  .similique .similique-numbers {
-    flex-direction: column;
+  .audiam .section-1 .audiam-text p {
+    width: 338px;
   }
-  .similique .similique-numbers h1 {
-    margin-bottom: 0px;
+  .audiam .section-2 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 72px;
   }
-  .similique .similique-numbers p {
-    height: auto;
+  .audiam .section-2 .audiam-menu .menu-content p {
+    width: 257px;
   }
 }
 
