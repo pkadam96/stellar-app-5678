@@ -1,5 +1,12 @@
 # stellar-app-5678
 
+Team Member:
+1. Pranoti (Team Lead)
+2. Prince
+3. Sonali
+4. Revanth
+5. Shubham
+
 Clone of Reliance Digital Webpage
 Webpage is the clone of Home Page of Reliance Digital.
 This page were created with the help of Bootstrap and little bit of CSS
