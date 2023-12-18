@@ -1,0 +1,133 @@
+.body{
+    margin:0px;
+    padding:0px;
+}
+.top{
+    background: #434CCC;
+    width: 1440px;
+    height: 80px;
+    display:flex;
+    margin:0px;
+    border-width:0px;
+    #logo{
+        width: 102px;
+        height: 48px;
+        margin-top: 16px;
+        margin-left: 135px;
+        margin-bottom:16px;
+        color: #FFFFFF;
+        font-weight: 400px;
+        font-size:40px;
+        line-height:48px ;
+    }
+    .portfolio{
+        width: 324px;
+        height: 24px;
+        margin-top: 28px;
+        margin-left: 534px;
+        font-weight: 700px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        display:flex;
+        justify-content: space-between;
+        font-family: 'DM Sans', sans-serif;
+    }
+    .signup{
+        width: 170px;
+        height: 48px;
+        margin-top: 16px;
+        margin-left: 40px;
+        border: 1px solid #FFFFFF4D;
+        border-radius: 10px;
+        .btn{
+            padding:0px;
+            width:57px;
+            height: 24px;
+            margin-left:56.5px;
+            margin-top:13px;
+            font-size: 15px;
+            line-height:24px;
+            font-weight: 700;
+            color: #FFFFFF;
+            background: #434CCC;
+            font-family: 'DM Sans', sans-serif;
+            border:none;
+        }
+    }
+    #bars{
+        width: 20px;
+        height: 14px;
+        margin-top: 24px;
+        color: #FFFFFF;
+        margin-left:50px;
+        display:none;
+    }
+}
+.about{
+    width:1440px;
+    height:224px;
+    margin:0px;
+    background: #434CCC;
+    padding-top:47px;
+    .abt{
+        height: 80px;
+        width:195px;
+        font-size:72px;
+        line-height: 80px;
+        font-weight: 400;
+        color:#FFFFFF;
+        margin-top:0px;
+        margin-left:623px;
+        margin-bottom:0px;
+    }
+    .viv{
+        width: 247px;
+        height: 32px;
+        margin-left:597px;
+        margin-top:10px;
+        color:#FFFFFF;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0px;
+        margin-bottom:0px;
+    }
+}
+@media all and (max-width:375px)
+{
+    .top{
+        width:375px;
+        height:64px;
+        #logo{
+            width: 62px;
+            height:32px;
+            margin-top:16px;
+            margin-left:14px;
+        }
+        #bars{
+            display:block;
+            margin-left:264px;
+        }
+        .portfolio, .signup{
+            display:none;
+        }
+    }
+    .about{
+        width:375px;
+        height:176px;
+        margin-top:-2%;
+        .abt{
+            width:152px;
+            height: 64px;
+            margin-left:113px;
+            margin-top:0px;
+        }
+        .viv{
+            width:247px;
+            height:32px;
+            margin-left:65px;
+            margin-top:13px;
+        }
+    }
+}
