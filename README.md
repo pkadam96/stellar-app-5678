@@ -21,12 +21,9 @@ The following section is done by Pranoti.
 Added the Carousel with Next & Previous Buttons.
 Hovering over any product will enlarge the size of the Product and on hovering over the product name, it will change color to create a great user interaction.
 
-•	
 
 
-
-
-
+Links for the Webpage
 --for Clone of Reliance_Digital--
 https://658044d058f3e6424095b6db--sparkling-lebkuchen-00abc5.netlify.app/
 
