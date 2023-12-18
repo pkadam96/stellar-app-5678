@@ -9,7 +9,7 @@ The following section is done by Sonali.
 Added the hyperlink and search input.
 Stick the navbar section to the webpage that it won’t move while scrolling and stick to the top of the page.
 
-•	Carousel from Watch Section to Brand Promise
+•	Carousel from Watch Section to Brand Promise: 
 Added the Carousel with Next & Previous Buttons.
 Hovering over any product will enlarge the size of the Product and on hovering over the product name, it will change color to create a great user interaction.
 
