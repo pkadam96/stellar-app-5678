@@ -13,7 +13,10 @@ Stick the navbar section to the webpage that it won’t move while scrolling and
 Added the Carousel with Next & Previous Buttons.
 Hovering over any product will enlarge the size of the Product and on hovering over the product name, it will change color to create a great user interaction.
 
-•	
+•	Footer section:-
+To connect with the people globally so that they can explore and find the items according to their need we have created footer where we have provided our dowloadable app links
+for both android and mac users.
+And at last we have created one button also to navigate to the other website which we have created.
 
 
 
