@@ -42,7 +42,7 @@ The project consists of a 2-page website built using HTML and Sass. It showcases
 - *Browser Compatibility*: Tested on multiple browser for a consistent experience
 
 ##Screenshots 
-<img src="https://github.com/anshukumari181405/overwought-skin/assets/82680213/9bcd765b-34f2-44df-acb4-77c4a5c26193">
+<img src="https://github.com/pkadam96/stellar-app-5678/blob/main/images/Screenshot%202024-01-08%20191412.png">
 
 ## Installation
 
